@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400&display=swap");
+
+body {
+  font-family: "Play", sans-serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+table {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+table th,
+table td {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 5px;
+  max-width: 40px;
+  overflow-x: scroll;
+  padding: 8px 10px;
+}
+
+table .totalRow {
+  background-color: #eee;
+  color: #222;
+}
+
+.playerAddingSection {
+  background-color: #eee;
+  bottom: 0;
+  color: #222;
+  display: none;
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+.playerAddingSection div p,
+.playerAddingSection div input {
+  font-size: x-large;
+  margin: 0 0 20px 0;
+}
+
+.btn {
+  background-color: #222;
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  font-size: large;
+  padding: 10px 15px;
+}
+
+.calculateTotals {
+  background-color: #eee;
+  color: #222;
+  font-size: xx-large;
+  margin: 20px 0;
+  width: 100%;
+}

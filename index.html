@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+  </head>
+  <body onbeforeunload="">
+    <!--
+      Problem:
+        Create a web application that keeps track of scores for a game of chinese
+        dominoes.
+        Rules: 
+          4 players
+          7 games altogether
+
+      1. Add 4 Names
+        Done - Create an interface for adding the names
+
+      2.
+    -->
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+
+          <th class="player1GamerTag">Rushin</th>
+
+          <th class="player2GamerTag">Veronic</th>
+
+          <th class="player3GamerTag">Rowin</th>
+
+          <th class="player4GamerTag">Amy</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- Double 6 -->
+        <tr>
+          <td>6</td>
+
+          <td
+            class="player1Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player2Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player3Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player4Score"
+            contenteditable="true"
+          ></td>
+        </tr>
+
+        <!-- Double 5 -->
+        <tr>
+          <td>5</td>
+
+          <td
+            class="player1Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player2Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player3Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player4Score"
+            contenteditable="true"
+          ></td>
+        </tr>
+
+        <!-- Double 4 -->
+        <tr>
+          <td>4</td>
+
+          <td
+            class="player1Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player2Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player3Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player4Score"
+            contenteditable="true"
+          ></td>
+        </tr>
+
+        <!-- Double 3 -->
+        <tr>
+          <td>3</td>
+
+          <td
+            class="player1Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player2Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player3Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player4Score"
+            contenteditable="true"
+          ></td>
+        </tr>
+
+        <!-- Double 2 -->
+        <tr>
+          <td>2</td>
+
+          <td
+            class="player1Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player2Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player3Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player4Score"
+            contenteditable="true"
+          ></td>
+        </tr>
+
+        <!-- Double 1 -->
+        <tr>
+          <td>1</td>
+
+          <td
+            class="player1Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player2Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player3Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player4Score"
+            contenteditable="true"
+          ></td>
+        </tr>
+
+        <!-- Double 0 -->
+        <tr>
+          <td>0</td>
+
+          <td
+            class="player1Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player2Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player3Score"
+            contenteditable="true"
+          ></td>
+
+          <td
+            class="player4Score"
+            contenteditable="true"
+          ></td>
+        </tr>
+
+        <tr class="totalRow">
+          <td>Total</td>
+
+          <td class="player1Total">0</td>
+
+          <td class="player2Total">0</td>
+
+          <td class="player3Total">0</td>
+
+          <td class="player4Total">0</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <input
+      class="btn calculateTotals"
+      type="button"
+      value="Calculate"
+    />
+
+    <section class="playerAddingSection">
+      <div>
+        <p>Player 1</p>
+
+        <input
+          type="text"
+          id="player1GamerTagInput"
+        />
+      </div>
+
+      <div>
+        <p>Player 2</p>
+
+        <input
+          type="text"
+          id="player2GamerTagInput"
+        />
+      </div>
+
+      <div>
+        <p>Player 3</p>
+
+        <input
+          type="text"
+          id="player3GamerTagInput"
+        />
+      </div>
+
+      <div>
+        <p>Player 4</p>
+
+        <input
+          type="text"
+          id="player4GamerTagInput"
+        />
+      </div>
+
+      <input
+        class="btn addPlayers"
+        type="button"
+        value="Add Players"
+      />
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
