@@ -4,7 +4,7 @@ body {
   font-family: "Play", sans-serif;
   color: #eee;
   background-color: #222;
-  /* background-color: #60b347; */
+  margin: 0;
 }
 
 table {
@@ -34,6 +34,7 @@ table .totalRow {
   background-color: #eee;
   bottom: 0;
   color: #222;
+  /* display: none; */
   left: 0;
   padding: 20px;
   position: fixed;

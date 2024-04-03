@@ -62,7 +62,7 @@ calculateTotalsBtn.addEventListener("click", () => {
   });
 
   player3Scores.forEach((element) => {
-    player2Total += Number(element.textContent);
+    player3Total += Number(element.textContent);
   });
 
   player4Scores.forEach((element) => {
